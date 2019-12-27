@@ -12,4 +12,10 @@ public class CrudTestApplication {
         SpringApplication.run(CrudTestApplication.class, args);
     }
 
+    //开发版本
+    public  void  test1(){
+
+    }
+
+
 }
