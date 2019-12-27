@@ -3,7 +3,7 @@ spring:
     name: scw-user
   datasource:
     url: jdbc:mysql://39.105.92.39:3306/atcrowdfunding
-    username: root
+      username: root
     password: Wujibing@123456
     driver-class-name: com.mysql.jdbc.Driver
 

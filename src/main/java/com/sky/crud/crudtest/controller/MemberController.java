@@ -23,6 +23,18 @@ public class MemberController {
     }
 
 
+    @RequestMapping("/test1")
+    public  String     deleteId(){
+
+
+
+        return null;
+
+    }
+
+
+
+
 
 
 }
