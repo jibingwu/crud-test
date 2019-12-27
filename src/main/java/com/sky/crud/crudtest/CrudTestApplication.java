@@ -12,4 +12,17 @@ public class CrudTestApplication {
         SpringApplication.run(CrudTestApplication.class, args);
     }
 
+
+
+
+    //主分支
+
+    public   void  test2(){
+
+    }
+
+
 }
+
+
+
