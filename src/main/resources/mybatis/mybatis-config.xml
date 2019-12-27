@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 引入pageHelper分页插件 -->
+	<!-- <plugins>
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+			开启分页合理化：   如果页码超过最后一页 则跳转到最后一页，如果页码小于1则跳转到第一页
+			<property name="reasonable" value="true"/>
+		</plugin>
+	</plugins> -->
+
+
+</configuration>

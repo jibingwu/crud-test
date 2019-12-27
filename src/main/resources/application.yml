@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: scw-user
+  datasource:
+    url: jdbc:mysql://39.105.92.39:3306/atcrowdfunding
+    username: root
+    password: Wujibing@123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+server:
+  port: 7000
+
+#数据库连接池参数
+#配置mybatis的 全局文件和mapper映射文件的路径
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml   #指定mybatis全局配置文件
+  mapper-locations: classpath:/mybatis/mapper/*.xml         # 指定mapper映射文件
+  
+  
+#redis的配置
+#日志配置
+thymeleaf:   # 配置   thymeleaf
+  prefix: classpath:/templates/
+  suffix: .html
+  cache:  false     # 开发时候禁用 thymeleaf 缓存， 上线开在开启缓存
